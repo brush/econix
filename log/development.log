@@ -1,0 +1,10 @@
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-05-18 15:10:42) [GET]
+Rendering index/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-05-18 15:41:42) [GET]
+Rendering index/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]

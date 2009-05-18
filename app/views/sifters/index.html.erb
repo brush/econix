@@ -1,0 +1,18 @@
+<h1>Listing sifters</h1>
+
+<table>
+  <tr>
+  </tr>
+
+<% @sifters.each do |sifter| %>
+  <tr>
+    <td><%= link_to 'Show', sifter %></td>
+    <td><%= link_to 'Edit', edit_sifter_path(sifter) %></td>
+    <td><%= link_to 'Destroy', sifter, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New sifter', new_sifter_path %>

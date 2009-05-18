@@ -1,0 +1,18 @@
+<h1>Listing slurpers</h1>
+
+<table>
+  <tr>
+  </tr>
+
+<% @slurpers.each do |slurper| %>
+  <tr>
+    <td><%= link_to 'Show', slurper %></td>
+    <td><%= link_to 'Edit', edit_slurper_path(slurper) %></td>
+    <td><%= link_to 'Destroy', slurper, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New slurper', new_slurper_path %>

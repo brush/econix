@@ -1,0 +1,12 @@
+<h1>Editing sifter</h1>
+
+<% form_for(@sifter) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @sifter %> |
+<%= link_to 'Back', sifters_path %>
